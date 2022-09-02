@@ -1,0 +1,82 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.top-header {
+  background: #f5f5f5;
+}
+.container{
+  width: 1140px;
+    margin: 0 auto;
+}
+.top-head {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+.email-contact {
+  padding: 0 15px;
+}
+.email-contact a {
+  color: #000;
+  margin: 0 4px 0 0;
+  text-decoration: none;
+  font-family: 'Poppins';
+    font-size: 13px;
+}
+.email-contact i {
+  color: #1876cd;
+  padding: 0 2px;
+}
+.icon {
+
+}
+.icon i {
+  color: #1876cd  ;
+  padding: 0 5px;
+}
+.col-2{
+  background: #f5f5f5;
+  box-shadow: 0px -1px 0px 0px rgb(0 0 0 / 10%);
+}
+.bottom-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 5px;
+}
+.nav {
+  display: flex;
+    list-style: none;
+}
+
+.fs-4{
+  font-size: 31px;
+    font-family: 'Poppins Bold';
+    align-items: center;
+    color: #697e94;
+}
+.nav-item a{
+  text-decoration: none;
+    padding: 0 12px;
+    color: #000;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+.nav-item a:hover{
+  color: #1876cd;
+}
+.nav-item a:hover{
+  text-decoration:underline;
+  color: #1876cd;
+  }
+.nav-btn{
+  background-color: #1876cd;
+  padding: 9px 22px;
+  border-radius: 58px;
+  color: #fff;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 13px;
+  font-family: sans-serif;
+}
